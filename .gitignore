@@ -1,0 +1,33 @@
+@'
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Local configuration and secrets
+.env
+.env.*
+
+# Models and generated media
+models/
+*.model
+*.bin
+*.safetensors
+*.mp3
+*.wav
+*.m4a
+*.mp4
+
+# Generated transcription
+*.srt
+*.txt
+'@ | Set-Content -Encoding utf8 .gitignore
