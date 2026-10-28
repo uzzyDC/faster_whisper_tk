@@ -1,3 +1,3 @@
 @echo off
-"C:\git\_whisperEnv\Scripts\python.exe" "C:\Users\Uzzy\Documenti\Kung Fu\faster_whisper_tk_riparato.py"
+"path\to\my\env\Scripts\python.exe" "path\to\my\file.py"
 pause
